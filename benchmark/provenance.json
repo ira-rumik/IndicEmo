@@ -1,0 +1,7 @@
+{
+  "benchmark_version": "1.0.0",
+  "historical_archive_revision": "22cef1d402e3d7376ec7a42c80e0051742e08eb1",
+  "source_prompts_sha256": "e7d5dde3162c8dc234e0ce236ad5657b07cc23d5dc4816a05fee66f9265b2bdb",
+  "source_judgments_sha256": "92c2024eeb4b09dc94a7b4f25fc8e7899ece793ed4312d2f148b37a956281cf3",
+  "export": "Lossless prompt export; selected numeric judgment and identity fields; allowlisted generation request fields; unchanged result CSVs. No audio or free-text judge responses."
+}

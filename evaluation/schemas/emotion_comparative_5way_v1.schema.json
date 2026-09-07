@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rumik.ai/schemas/emotion_comparative_5way_v1.schema.json",
+  "title": "Rumik-OSS 1 five-way comparative emotion judgment v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "target_delivery",
+    "invalid_clips",
+    "clips",
+    "ranking_best_to_worst",
+    "tie_groups",
+    "winner",
+    "winner_margin",
+    "winner_reason",
+    "confidence"
+  ],
+  "properties": {
+    "target_delivery": {
+      "type": "string",
+      "enum": ["Happy", "Sad", "Angry", "Excited", "Professional"]
+    },
+    "invalid_clips": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "enum": ["A", "B", "C", "D", "E"]}
+    },
+    "clips": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "clip_id",
+          "expression_quality_score",
+          "tone_pitch_evidence",
+          "energy_dynamics_evidence",
+          "timing_phrasing_evidence",
+          "authenticity_and_sustainment",
+          "main_limitation"
+        ],
+        "properties": {
+          "clip_id": {
+            "type": "string",
+            "enum": ["A", "B", "C", "D", "E"]
+          },
+          "expression_quality_score": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "tone_pitch_evidence": {"type": "string"},
+          "energy_dynamics_evidence": {"type": "string"},
+          "timing_phrasing_evidence": {"type": "string"},
+          "authenticity_and_sustainment": {"type": "string"},
+          "main_limitation": {"type": "string"}
+        }
+      }
+    },
+    "ranking_best_to_worst": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "uniqueItems": true,
+      "items": {"type": "string", "enum": ["A", "B", "C", "D", "E"]}
+    },
+    "tie_groups": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "minItems": 2,
+        "uniqueItems": true,
+        "items": {"type": "string", "enum": ["A", "B", "C", "D", "E"]}
+      }
+    },
+    "winner": {
+      "type": "string",
+      "enum": ["A", "B", "C", "D", "E"]
+    },
+    "winner_margin": {
+      "type": "string",
+      "enum": ["indistinguishable", "slight", "moderate", "clear"]
+    },
+    "winner_reason": {"type": "string"},
+    "confidence": {"type": "integer", "minimum": 1, "maximum": 5}
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "version": "1.0.0",
+  "frozen_at": "2026-08-19",
+  "benchmark": {
+    "dataset": "code_switching_100.jsonl",
+    "rows": 100,
+    "generated_at": "2026-08-19",
+    "voice_policy": "One fixed voice per provider and anchor accent; Rumik-OSS 1 uses Ira for every row."
+  },
+  "controls": {
+    "emotions": [
+      "Happy",
+      "Sad",
+      "Angry",
+      "Excited",
+      "Professional"
+    ],
+    "paces": [
+      "Slow",
+      "Steady",
+      "Fast"
+    ]
+  },
+  "providers": {
+    "gemini": {
+      "model": "gemini-3.1-flash-tts-preview",
+      "sampling": "Provider defaults",
+      "prompt_structure": [
+        "Audio Profile",
+        "Scene",
+        "Director's Notes",
+        "Exact Transcript"
+      ],
+      "prompt_rules": [
+        "Keep the transcript byte-for-byte unchanged.",
+        "Explicitly name the requested language or Indian English variety, emotion, and pace.",
+        "Direct audible delivery using vocal energy, pitch movement, phrase endings, pauses, articulation, and intensity.",
+        "Do not add laughter, crying, sighs, words, or sound effects unless they already occur in the transcript."
+      ],
+      "voices": {
+        "hi": "Leda",
+        "te": "Kore",
+        "ta": "Kore",
+        "kn": "Achernar",
+        "bn": "Kore",
+        "pa": "Leda",
+        "en-in": "Leda"
+      }
+    },
+    "elevenlabs": {
+      "model": "eleven_v3",
+      "output_format": "pcm_24000",
+      "voice_settings": {
+        "stability": 0.35,
+        "similarity_boost": 0.75,
+        "style": 0.0,
+        "use_speaker_boost": true
+      },
+      "language_codes": {
+        "hi": "hi",
+        "te": "te",
+        "ta": "ta",
+        "kn": "kn",
+        "bn": "bn",
+        "pa": "pa",
+        "en-in": "en"
+      },
+      "emotion_tags": {
+        "Happy": "[happily]",
+        "Sad": "[sad]",
+        "Angry": "[angry]",
+        "Excited": "[excited]",
+        "Professional": "[calm and professional]"
+      },
+      "pace_tags": {
+        "Slow": "[speaking slowly and deliberately]",
+        "Steady": "[speaking at a natural steady pace]",
+        "Fast": "[speaking quickly but clearly]"
+      },
+      "input": "Prepend exactly one emotion tag and one pace tag; preserve every transcript word and punctuation mark.",
+      "voices": {
+        "hi": {
+          "id": "FkT6Q855eTGVrc7hA75N",
+          "name": "Mitali - Emotional Drama & Romance"
+        },
+        "te": {
+          "id": "GGBhcpAgpjSrBIr5MQwR",
+          "name": "Vijaya - Authentic Telugu Explainer"
+        },
+        "ta": {
+          "id": "a49ffQsGpRBw28CL67GF",
+          "name": "Yazhini - Calm Expressive Tamil"
+        },
+        "kn": {
+          "id": "imphBib61OiJ8r9IfSGe",
+          "name": "Varalaxmi - Natural Kannada"
+        },
+        "bn": {
+          "id": "FDQcYNtvPtQjNlTyU3du",
+          "name": "Sumi - Soft Emotional Bengali"
+        },
+        "pa": {
+          "id": "vT0wMbLG5dssaBsksrb6",
+          "name": "Noor - Native Punjabi Narrator"
+        },
+        "en-in": {
+          "id": "Rk0hF1X0z2RQCmWH9SCb",
+          "name": "Diya - Soft Trustworthy Indian"
+        }
+      }
+    },
+    "cartesia_sonic_3_5": {
+      "model": "sonic-3.5-2026-05-04",
+      "api_version": "2026-08-14",
+      "output": {
+        "container": "wav",
+        "encoding": "pcm_s16le",
+        "sample_rate": 24000
+      },
+      "generation_config": {
+        "volume": 1.0,
+        "emotion": {
+          "Happy": "happy",
+          "Sad": "sad",
+          "Angry": "angry",
+          "Excited": "excited",
+          "Professional": "neutral"
+        },
+        "speed": {
+          "Slow": 0.8,
+          "Steady": 1.0,
+          "Fast": 1.2
+        }
+      },
+      "input": "Send only the spoken transcript; do not send the Rumik-OSS 1 description wrapper.",
+      "voices": {
+        "hi": {
+          "id": "6b02ffe5-e3cb-48c0-a023-c72f85953375",
+          "name": "Sneha - Empathetic Voice",
+          "language": "hi"
+        },
+        "te": {
+          "id": "07bc462a-c644-49f1-baf7-82d5599131be",
+          "name": "Sindhu",
+          "language": "te"
+        },
+        "ta": {
+          "id": "96e6974d-57a9-4325-89c8-43f065f8bd95",
+          "name": "Akshara",
+          "language": "ta"
+        },
+        "kn": {
+          "id": "7c6219d2-e8d2-462c-89d8-7ecba7c75d65",
+          "name": "Divya - Joyful Narrator",
+          "language": "kn"
+        },
+        "bn": {
+          "id": "59ba7dee-8f9a-432f-a6c0-ffb33666b654",
+          "name": "Pooja - Everyday Assistant",
+          "language": "bn"
+        },
+        "pa": {
+          "id": "991c62ce-631f-48b0-8060-2a0ebecbd15b",
+          "name": "Jaspreet - Commercial Woman",
+          "language": "pa"
+        },
+        "en-in": {
+          "id": "3b554273-4299-48b9-9aaf-eefd438e3941",
+          "name": "Simi - Support Specialist",
+          "language": "en",
+          "locale": "en-IN"
+        }
+      }
+    },
+    "rumik_oss_1": {
+      "model": "Rumik-OSS 1",
+      "temperature": 0.8,
+      "top_k": 30,
+      "max_new_tokens": 2048,
+      "input": "Use the benchmark prompt unchanged, including its description wrapper.",
+      "voices": {
+        "hi": "Ira",
+        "te": "Ira",
+        "ta": "Ira",
+        "kn": "Ira",
+        "bn": "Ira",
+        "pa": "Ira",
+        "en-in": "Ira"
+      },
+      "voice_policy": "Single-speaker cross-lingual evaluation using Ira for all 100 rows."
+    },
+    "cartesia_sonic_preview": {
+      "inherits": "cartesia_sonic_3_5",
+      "model": "sonic-preview",
+      "release_status": "beta",
+      "reproducibility_note": "The exact API model alias was sonic-preview on 2026-08-19; the alias may resolve differently in a future run.",
+      "public_name": "Cartesia Sonic Preview"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+scope,system_a,system_a_name,system_b,system_b_name,system_a_pairwise_win_rate,system_b_pairwise_win_rate,n_judge_cases
+emotion_only,gemini,Gemini 3.1 Flash TTS Preview,rumik_oss_1,Rumik-OSS 1,0.8143459915611815,0.18565400843881852,237
+emotion_only,gemini,Gemini 3.1 Flash TTS Preview,cartesia_sonic_preview,Cartesia Sonic Preview,0.8945147679324894,0.10548523206751059,237
+emotion_only,gemini,Gemini 3.1 Flash TTS Preview,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.9240506329113924,0.07594936708860756,237
+emotion_only,gemini,Gemini 3.1 Flash TTS Preview,elevenlabs,ElevenLabs Eleven v3,0.9324894514767933,0.0675105485232067,237
+emotion_only,rumik_oss_1,Rumik-OSS 1,cartesia_sonic_preview,Cartesia Sonic Preview,0.5949367088607594,0.40506329113924056,237
+emotion_only,rumik_oss_1,Rumik-OSS 1,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.6350210970464135,0.3649789029535865,237
+emotion_only,rumik_oss_1,Rumik-OSS 1,elevenlabs,ElevenLabs Eleven v3,0.6666666666666666,0.33333333333333337,237
+emotion_only,cartesia_sonic_preview,Cartesia Sonic Preview,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.6223628691983122,0.3776371308016878,237
+emotion_only,cartesia_sonic_preview,Cartesia Sonic Preview,elevenlabs,ElevenLabs Eleven v3,0.6518987341772152,0.3481012658227848,237
+emotion_only,cartesia_sonic_3_5,Cartesia Sonic 3.5,elevenlabs,ElevenLabs Eleven v3,0.5485232067510548,0.4514767932489452,237
+all_deliveries,gemini,Gemini 3.1 Flash TTS Preview,rumik_oss_1,Rumik-OSS 1,0.8129251700680272,0.18707482993197277,294
+all_deliveries,gemini,Gemini 3.1 Flash TTS Preview,cartesia_sonic_preview,Cartesia Sonic Preview,0.8639455782312925,0.13605442176870752,294
+all_deliveries,gemini,Gemini 3.1 Flash TTS Preview,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.8809523809523809,0.11904761904761907,294
+all_deliveries,gemini,Gemini 3.1 Flash TTS Preview,elevenlabs,ElevenLabs Eleven v3,0.9081632653061225,0.09183673469387754,294
+all_deliveries,rumik_oss_1,Rumik-OSS 1,cartesia_sonic_preview,Cartesia Sonic Preview,0.5238095238095238,0.47619047619047616,294
+all_deliveries,rumik_oss_1,Rumik-OSS 1,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.5697278911564626,0.4302721088435374,294
+all_deliveries,rumik_oss_1,Rumik-OSS 1,elevenlabs,ElevenLabs Eleven v3,0.6156462585034014,0.3843537414965986,294
+all_deliveries,cartesia_sonic_preview,Cartesia Sonic Preview,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.641156462585034,0.358843537414966,294
+all_deliveries,cartesia_sonic_preview,Cartesia Sonic Preview,elevenlabs,ElevenLabs Eleven v3,0.6717687074829932,0.3282312925170068,294
+all_deliveries,cartesia_sonic_3_5,Cartesia Sonic 3.5,elevenlabs,ElevenLabs Eleven v3,0.54421768707483,0.45578231292517,294
+happy,gemini,Gemini 3.1 Flash TTS Preview,rumik_oss_1,Rumik-OSS 1,0.7666666666666667,0.23333333333333328,60
+happy,gemini,Gemini 3.1 Flash TTS Preview,cartesia_sonic_preview,Cartesia Sonic Preview,0.8166666666666667,0.18333333333333335,60
+happy,gemini,Gemini 3.1 Flash TTS Preview,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.9333333333333333,0.06666666666666665,60
+happy,gemini,Gemini 3.1 Flash TTS Preview,elevenlabs,ElevenLabs Eleven v3,0.9,0.09999999999999998,60
+happy,rumik_oss_1,Rumik-OSS 1,cartesia_sonic_preview,Cartesia Sonic Preview,0.43333333333333335,0.5666666666666667,60
+happy,rumik_oss_1,Rumik-OSS 1,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.5666666666666667,0.43333333333333335,60
+happy,rumik_oss_1,Rumik-OSS 1,elevenlabs,ElevenLabs Eleven v3,0.55,0.44999999999999996,60
+happy,cartesia_sonic_preview,Cartesia Sonic Preview,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.6083333333333333,0.3916666666666667,60
+happy,cartesia_sonic_preview,Cartesia Sonic Preview,elevenlabs,ElevenLabs Eleven v3,0.6416666666666667,0.3583333333333333,60
+happy,cartesia_sonic_3_5,Cartesia Sonic 3.5,elevenlabs,ElevenLabs Eleven v3,0.5,0.5,60
+sad,gemini,Gemini 3.1 Flash TTS Preview,rumik_oss_1,Rumik-OSS 1,0.9666666666666667,0.033333333333333326,60
+sad,gemini,Gemini 3.1 Flash TTS Preview,cartesia_sonic_preview,Cartesia Sonic Preview,0.9666666666666667,0.033333333333333326,60
+sad,gemini,Gemini 3.1 Flash TTS Preview,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.9166666666666666,0.08333333333333337,60
+sad,gemini,Gemini 3.1 Flash TTS Preview,elevenlabs,ElevenLabs Eleven v3,0.9666666666666667,0.033333333333333326,60
+sad,rumik_oss_1,Rumik-OSS 1,cartesia_sonic_preview,Cartesia Sonic Preview,0.5416666666666666,0.45833333333333337,60
+sad,rumik_oss_1,Rumik-OSS 1,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.5333333333333333,0.4666666666666667,60
+sad,rumik_oss_1,Rumik-OSS 1,elevenlabs,ElevenLabs Eleven v3,0.525,0.475,60
+sad,cartesia_sonic_preview,Cartesia Sonic Preview,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.5916666666666667,0.4083333333333333,60
+sad,cartesia_sonic_preview,Cartesia Sonic Preview,elevenlabs,ElevenLabs Eleven v3,0.5333333333333333,0.4666666666666667,60
+sad,cartesia_sonic_3_5,Cartesia Sonic 3.5,elevenlabs,ElevenLabs Eleven v3,0.5083333333333333,0.4916666666666667,60
+angry,gemini,Gemini 3.1 Flash TTS Preview,rumik_oss_1,Rumik-OSS 1,0.7719298245614035,0.22807017543859653,57
+angry,gemini,Gemini 3.1 Flash TTS Preview,cartesia_sonic_preview,Cartesia Sonic Preview,0.9298245614035088,0.07017543859649122,57
+angry,gemini,Gemini 3.1 Flash TTS Preview,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.9298245614035088,0.07017543859649122,57
+angry,gemini,Gemini 3.1 Flash TTS Preview,elevenlabs,ElevenLabs Eleven v3,0.9122807017543859,0.08771929824561409,57
+angry,rumik_oss_1,Rumik-OSS 1,cartesia_sonic_preview,Cartesia Sonic Preview,0.8333333333333334,0.16666666666666663,57
+angry,rumik_oss_1,Rumik-OSS 1,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.8157894736842105,0.1842105263157895,57
+angry,rumik_oss_1,Rumik-OSS 1,elevenlabs,ElevenLabs Eleven v3,0.8333333333333334,0.16666666666666663,57
+angry,cartesia_sonic_preview,Cartesia Sonic Preview,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.5350877192982456,0.4649122807017544,57
+angry,cartesia_sonic_preview,Cartesia Sonic Preview,elevenlabs,ElevenLabs Eleven v3,0.5614035087719298,0.4385964912280702,57
+angry,cartesia_sonic_3_5,Cartesia Sonic 3.5,elevenlabs,ElevenLabs Eleven v3,0.5263157894736842,0.4736842105263158,57
+excited,gemini,Gemini 3.1 Flash TTS Preview,rumik_oss_1,Rumik-OSS 1,0.75,0.25,60
+excited,gemini,Gemini 3.1 Flash TTS Preview,cartesia_sonic_preview,Cartesia Sonic Preview,0.8666666666666667,0.1333333333333333,60
+excited,gemini,Gemini 3.1 Flash TTS Preview,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.9166666666666666,0.08333333333333337,60
+excited,gemini,Gemini 3.1 Flash TTS Preview,elevenlabs,ElevenLabs Eleven v3,0.95,0.050000000000000044,60
+excited,rumik_oss_1,Rumik-OSS 1,cartesia_sonic_preview,Cartesia Sonic Preview,0.5833333333333334,0.41666666666666663,60
+excited,rumik_oss_1,Rumik-OSS 1,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.6333333333333333,0.3666666666666667,60
+excited,rumik_oss_1,Rumik-OSS 1,elevenlabs,ElevenLabs Eleven v3,0.7666666666666667,0.23333333333333328,60
+excited,cartesia_sonic_preview,Cartesia Sonic Preview,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.75,0.25,60
+excited,cartesia_sonic_preview,Cartesia Sonic Preview,elevenlabs,ElevenLabs Eleven v3,0.8666666666666667,0.1333333333333333,60
+excited,cartesia_sonic_3_5,Cartesia Sonic 3.5,elevenlabs,ElevenLabs Eleven v3,0.6583333333333333,0.3416666666666667,60
+professional,gemini,Gemini 3.1 Flash TTS Preview,rumik_oss_1,Rumik-OSS 1,0.8070175438596491,0.19298245614035092,57
+professional,gemini,Gemini 3.1 Flash TTS Preview,cartesia_sonic_preview,Cartesia Sonic Preview,0.7368421052631579,0.26315789473684215,57
+professional,gemini,Gemini 3.1 Flash TTS Preview,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.7017543859649122,0.29824561403508776,57
+professional,gemini,Gemini 3.1 Flash TTS Preview,elevenlabs,ElevenLabs Eleven v3,0.8070175438596491,0.19298245614035092,57
+professional,rumik_oss_1,Rumik-OSS 1,cartesia_sonic_preview,Cartesia Sonic Preview,0.22807017543859648,0.7719298245614035,57
+professional,rumik_oss_1,Rumik-OSS 1,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.2982456140350877,0.7017543859649122,57
+professional,rumik_oss_1,Rumik-OSS 1,elevenlabs,ElevenLabs Eleven v3,0.40350877192982454,0.5964912280701755,57
+professional,cartesia_sonic_preview,Cartesia Sonic Preview,cartesia_sonic_3_5,Cartesia Sonic 3.5,0.7192982456140351,0.2807017543859649,57
+professional,cartesia_sonic_preview,Cartesia Sonic Preview,elevenlabs,ElevenLabs Eleven v3,0.7543859649122807,0.24561403508771928,57
+professional,cartesia_sonic_3_5,Cartesia Sonic 3.5,elevenlabs,ElevenLabs Eleven v3,0.5263157894736842,0.4736842105263158,57

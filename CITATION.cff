@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Please cite this benchmark release. A technical report will follow."
+title: "IndicEmo Benchmark: Expressive TTS across Indic Code-Switching"
+type: software
+license: Apache-2.0
+authors:
+  - name: Rumik Intelligence
+version: 1.0.0
+date-released: 2026-09-05
+url: https://github.com/ira-rumik/IndicEmo
+repository-code: https://github.com/ira-rumik/IndicEmo
+references:
+  - type: article
+    title: "InstructTTSEval: Benchmarking Complex Natural-Language Instruction Following in Text-to-Speech Systems"
+    authors:
+      - family-names: Huang
+        given-names: Kexin
+      - family-names: Tu
+        given-names: Qian
+      - family-names: Fan
+        given-names: Liwei
+      - family-names: Yang
+        given-names: Chenchen
+      - family-names: Zhang
+        given-names: Dong
+      - family-names: Li
+        given-names: Shimin
+      - family-names: Fei
+        given-names: Zhaoye
+      - family-names: Cheng
+        given-names: Qinyuan
+      - family-names: Qiu
+        given-names: Xipeng
+    year: 2025
+    doi: 10.48550/arXiv.2506.16381
+    url: https://arxiv.org/abs/2506.16381

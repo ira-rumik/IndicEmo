@@ -1,0 +1,37 @@
+IndicEmo Benchmark
+Copyright 2026 Rumik Intelligence
+
+Rumik-authored code, documentation, evaluation prompts, response schemas,
+and generation configurations are licensed under the Apache License,
+Version 2.0. See LICENSE and the scope described in README.md.
+
+Research attribution
+--------------------
+InstructTTSEval: Benchmarking Complex Natural-Language Instruction Following
+in Text-to-Speech Systems (Huang et al., 2025) informed the evaluation design.
+https://github.com/KexinHUANG19/InstructTTSEval
+https://arxiv.org/abs/2506.16381
+This is an acknowledgment of prior research, not a claim of ownership of
+that work or a grant of rights to its code, dataset, or recordings.
+
+External services and dependencies
+----------------------------------
+The suite interfaces with Google Gemini, Qwen, OpenAI, Cartesia, and
+ElevenLabs services. Their services, models, voices, and generated outputs
+are not relicensed by this repository. API use is governed by the applicable
+provider agreement. Third-party dependencies retain their own licenses;
+requirements.txt and requirements.lock identify the dependencies.
+
+Company marks
+-------------
+The figures identify evaluated systems using Google, Cartesia, ElevenLabs,
+and Rumik marks. These marks remain the property of their respective owners
+and are excluded from the repository's Apache-2.0 grant. Their inclusion
+does not imply endorsement. No additional trademark rights are granted.
+
+Google: https://about.google/
+Cartesia: https://www.cartesia.ai/
+ElevenLabs: https://elevenlabs.io/press
+Rumik: supplied by Rumik for these figures.
+
+See DATA_LICENSE.md for the separate treatment of benchmark data and audio.

@@ -1,0 +1,6 @@
+system_id,system_name,overall_consensus_score,emotion_only_consensus_score,happy,sad,angry,excited,professional,happy_prompts,sad_prompts,angry_prompts,excited_prompts,professional_prompts,strict_common_prompts,judge_count,aggregation
+gemini,Gemini 3.1 Flash TTS Preview,4.578421052631579,4.657236842105263,4.4,4.9,4.578947368421052,4.75,4.2631578947368425,20,20,19,20,19,98,3,per_prompt_judge_median_then_delivery_macro_average
+rumik_oss_1,Rumik-OSS 1,2.9184210526315786,3.0296052631578947,2.95,2.5,3.3684210526315788,3.3,2.473684210526316,20,20,19,20,19,98,3,per_prompt_judge_median_then_delivery_macro_average
+cartesia_sonic_preview,Cartesia Sonic Preview,2.714736842105263,2.511842105263158,2.95,2.1,1.9473684210526316,3.05,3.526315789473684,20,20,19,20,19,98,3,per_prompt_judge_median_then_delivery_macro_average
+cartesia_sonic_3_5,Cartesia Sonic 3.5,2.3194736842105264,2.175657894736842,2.45,1.95,2.0526315789473686,2.25,2.8947368421052633,20,20,19,20,19,98,3,per_prompt_judge_median_then_delivery_macro_average
+elevenlabs,ElevenLabs Eleven v3,2.1642105263157894,2.0342105263157895,2.45,2.2,1.736842105263158,1.75,2.6842105263157894,20,20,19,20,19,98,3,per_prompt_judge_median_then_delivery_macro_average

@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+data/
+runs/
+release/
+*.wav
+*.parquet
+.DS_Store
